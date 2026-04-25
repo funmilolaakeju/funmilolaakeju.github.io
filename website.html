@@ -1,22 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Funmilola Akeju | Wireless Communications Research</title>
+
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #222;
+}
+
+header {
+    background: #0a192f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background: #112240;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ccd6f6;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #0a192f;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+    background: #0a192f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
 </head>
+
 <body>
 
-    <h1>Welcome to My Website</h1>
-    <p>I am building my portfolio.</p>
+<header>
+    <h1>Funmilola Akeju</h1>
+    <p>Wireless Communications | MIMO-OFDM | PD-NOMA | AI</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#code">Code</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About</h2>
+<div class="card">
+<p>
+I am a graduate researcher in Electrical Engineering specializing in wireless communication systems.
+My research focuses on MIMO-OFDM systems, power-domain NOMA, and advanced receiver design techniques
+such as successive interference cancellation (SIC) and channel estimation.
+</p>
+
+<p>
+My work involves mathematical modeling, simulation (MATLAB), and performance evaluation using metrics
+such as BER vs SNR under realistic channel conditions.
+</p>
+</div>
+</section>
+
+<section id="research">
+<h2>Research</h2>
+
+<div class="card">
+<h3>MIMO-OFDM System Modeling</h3>
+<p>
+Developed a complete matrix-based MIMO-OFDM framework with N transmit antennas and M subcarriers.
+The system includes:
+</p>
+<ul>
+<li>IFFT/FFT-based OFDM modulation</li>
+<li>Frequency-selective channel modeling</li>
+<li>Linear detection techniques</li>
+</ul>
+
+<p><b>Key Contribution:</b> End-to-end mathematical formulation of transmitter, channel, and receiver.</p>
+</div>
+
+<div class="card">
+<h3>PD-NOMA with SIC (Uplink)</h3>
+<p>
+Implemented a power-domain NOMA system supporting multiple users transmitting simultaneously.
+Successive interference cancellation (SIC) is applied at the receiver.
+</p>
+
+<ul>
+<li>Power allocation strategies</li>
+<li>SIC decoding order</li>
+<li>Performance comparison with OMA</li>
+</ul>
+
+<p><b>Key Result:</b> Improved spectral efficiency compared to OMA systems.</p>
+</div>
+
+<div class="card">
+<h3>SIMO NOMA Receiver Design</h3>
+<p>
+Designed a SIMO-based NOMA system where multiple receive antennas are jointly used
+to improve detection reliability.
+</p>
+
+<ul>
+<li>Joint signal combining</li>
+<li>Channel estimation (LS)</li>
+<li>Diversity gain analysis</li>
+</ul>
+
+</div>
+
+</section>
+
+<section id="publications">
+<h2>Publications</h2>
+<div class="card">
+<ul>
+<li>Conference submission in progress (SPIE)</li>
+<li>Journal manuscript under preparation (IEEE)</li>
+</ul>
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="card">
+<ul>
+<li><b>Programming:</b> MATLAB, Python</li>
+<li><b>Tools:</b> Simulink, Git</li>
+<li><b>Areas:</b> Signal Processing, Wireless Communications, AI/ML</li>
+</ul>
+</div>
+</section>
+
+<section id="code">
+<h2>Code</h2>
+<div class="card">
+<p>
+GitHub repositories will be updated with:
+</p>
+<ul>
+<li>MIMO-OFDM simulation code</li>
+<li>PD-NOMA SIC implementation</li>
+</ul>
+
+<p>
+<a href="#">View GitHub (Coming Soon)</a>
+</p>
+</div>
+</section>
+
+<section id="cv">
+<h2>Curriculum Vitae</h2>
+<div class="card">
+<p><a href="cv.pdf">Download CV</a></p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: your-email@example.com</p>
+<p>LinkedIn: your-linkedin</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Funmilola Akeju</p>
+</footer>
 
 </body>
 </html>
